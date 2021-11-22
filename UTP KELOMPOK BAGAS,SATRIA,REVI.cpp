@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void pilih(int a) {
+void pilih(int a) { // umtuk memunculkan menu awal
 	system("color E");	
 	cout << "              Selamat Datang di ShakaDrink" << endl;
 	cout << "         Vending Machine Terbaik Dan Terpraktis" << endl;
@@ -19,7 +19,7 @@ int main(){
 	cin >> uang;
 	system("cls");
 	
-		string minuman[7]={
+		string minuman[7]={ // array pilihan barang
 		"1. Coca Cola      : Rp.8000",
 		"2. Pepsi          : Rp.7500",
 		"3. Fanta          : Rp.8200",
